@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Song Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player-container">
+    <h2>🎵 Web Song Player</h2>
+    <div class="song-title" id="songTitle">Select a song</div>
+    
+    <audio id="audio" src=""></audio>
+
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭️</button>
+    </div>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="song-list">
+      <button onclick="loadSong('song1.mp3', 'Chill Vibes')">🎶 Chill Vibes</button>
+      <button onclick="loadSong('song2.mp3', 'Night Drive')">🚗 Night Drive</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
