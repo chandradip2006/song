@@ -7,8 +7,8 @@ const title = document.getElementById("songTitle");
 
 let playlist = [
   { file: "Bepanah Pyaar(KoshalWorld.Com).mp3", name: "Chill Vibes" },
-  { file: "Sona-Lagda-SukhE.mp3", name: "Night Drive" }
-  // { file: "Enni_Soni_-_Saaho_128_Kbps.mp3", name: "stylish" }
+  { file: "Sona-Lagda-SukhE.mp3", name: "Night Drive" },
+  { file: "Enni_Soni_-_Saaho_128_Kbps.mp3", name: "stylish" }
 ];
 
 let currentIndex = -1;
