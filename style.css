@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('https://t4.ftcdn.net/jpg/08/09/88/01/360_F_809880168_NtwcYQJgqK2pYPrILaqo45syY6qM3chH.jpg');
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url('https://t4.ftcdn.net/jpg/08/09/88/01/360_F_809880168_NtwcYQJgqK2pYPrILaqo45syY6qM3chH.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
